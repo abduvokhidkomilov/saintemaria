@@ -1,0 +1,223 @@
+/* fonts */
+@font-face {
+    font-family: 'Chivo';
+    src: url('./fonts/Chivo-Regular.woff2') format('woff2'),
+        url('./fonts/Chivo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* global style */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ html{
+    height: 100%;
+ }
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Chivo';
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+/* header part styles*/
+.site-header {
+   margin-bottom: 50px;
+}
+.site-header .container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    display: inline-block;
+}
+
+.site-nav {
+
+
+}
+
+.site-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.site-link {
+}
+
+
+/* main part styles */
+.site-main {
+    flex-grow: 1;
+}
+
+/* section one */
+.hero, .eoures {
+    margin-bottom: 40px;
+}
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.wrapper {
+    background-image: url(./imges/bg1.png);
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-title {
+   
+    
+}
+.next-title {
+}
+
+
+/* section two */
+.box-img-one {
+    background-image: url(./imges/bg2\ \(1\).png);
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.main-title {
+}
+.next-title {
+}
+
+/* section three */
+.flower-box {
+    color: white;
+    margin-bottom: 40px;
+}
+.flower-box .container {
+    display: flex;
+    gap: 20px;
+}
+.collection {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url(./imges/bg3\ \(1\).png);
+}
+.flower {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width:50%;
+    background-image: url(./imges/bg4\ \(1\).png);
+}
+
+/* section fo */
+.correspondance-box {
+    color: white;
+    margin-bottom: 40px;
+    
+}
+.correspondance-box .container {
+    display: flex;
+    gap: 20px;
+}
+.correspondance1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    background-image: url(./imges/bg5\ \(1\).png);    
+}
+.correspondance2 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    background-image: url(./imges/bg6.png);
+
+}
+.correspondance3 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    background-image: url(./imges/bg7.png);
+
+}
+
+
+/* footer part styles */
+.site-footer {
+  
+}
+
+.site-footer .container {
+    display: flex;
+    justify-content: center;
+}
+.footer-box {
+    width:250px;
+    margin: auto;
+    text-align: center;
+}
+.square {
+    font-size: 100px;
+    font-weight: 900;
+
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
